@@ -10,10 +10,10 @@ import UIKit
 
 class AllCitiesController: UITableViewController {
     
-    var cities = [(title: "Moscow",emblem: #imageLiteral(resourceName: "Moscow")),
-                  (title: "St Petersburg",emblem: #imageLiteral(resourceName: "Saint-P")),
-                  (title: "London",emblem: #imageLiteral(resourceName: "London")),
-                  (title: "Paris",emblem: #imageLiteral(resourceName: "Paris"))]
+    var cities = [(title: "Москва",emblem: #imageLiteral(resourceName: "Moscow")),
+                  (title: "Санкт-Петербург",emblem: #imageLiteral(resourceName: "Saint-P")),
+                  (title: "Лондон",emblem: #imageLiteral(resourceName: "London")),
+                  (title: "Париж",emblem: #imageLiteral(resourceName: "Paris"))]
 
     override func viewDidLoad() {
         super.viewDidLoad()
